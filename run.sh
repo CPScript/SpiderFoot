@@ -12,7 +12,7 @@ if [[ $EUID -ne 0 ]]; then
   sleep 1
   clear
 
-  echo PLEASE use a vpn or run this script of a disposible USB or VM!
+  echo PLEASE use a vpn or run this script on a disposable USB or VM!
   sleep 6
   clear
   echo Launching tor before running script, please wait...
