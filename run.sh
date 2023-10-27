@@ -12,6 +12,6 @@ newnym() {
 git clone https://github.com/CPScript/Sfoot-Easy
 
 # Change your current directory to the one where you cloned the repository.
-cd Sfoot-Easy/Easy
+cd Sfoot-Easy/easy
 
 source easy.sh
