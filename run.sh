@@ -1,4 +1,13 @@
 #!/bin/bash
+#SIMPLE TOR LAUNCHER | for launching tor befor a repo starts
+
+clear
+echo PLEASE use a vpn or run this script of a disposible USB or VM!
+sleep 6
+clear
+echo Launching tor before running script, please wait...
+sleep 2
+clear
 
 tor
 
@@ -11,7 +20,8 @@ newnym() {
 # Download the repo
 git clone https://github.com/CPScript/Sfoot-Easy
 
-# Change your current directory to the one where you cloned the repository.
-cd Sfoot-Easy/easy
+# Change Dir
+cd Sfoot-Easy/script
 
+# Launch script
 source easy.sh
