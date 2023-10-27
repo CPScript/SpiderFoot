@@ -1,5 +1,10 @@
 #!/bin/bash
-#SIMPLE TOR LAUNCHER | for launching tor before a repo starts
+# |______________________Simple tor launcher_____________________|
+# |           For launching tor before a repo starts             |
+# |______________________________________________________________|
+# |> Made by: 
+# |> CPScript | Disease
+# |> kirakenjiro | Kira (freind from discord)
 
 # Are you root check
 if [[ $EUID -ne 0 ]]; then
