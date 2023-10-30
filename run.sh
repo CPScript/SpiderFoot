@@ -28,18 +28,18 @@ if [[ $EUID -ne 0 ]]; then
   }
 
   # Download the repo
-  git clone https://github.com/CPScript/Sfoot-Easy
+  git clone https://github.com/CPScript/SFEasy
 
   # Change Dir
-  cd Sfoot-Easy/script
+  cd SFEasy/script
 
   # Launch script
-  source easy.sh
+  source script.sh
 
 else
   # Not rooted message | How to root
-  echo Please root!
+  echo Please root
   sleep 2
-  echo | Example on how to root your terminal:
-  echo | > sudo su < might require a password >
+  echo  Example on how to root your terminal:
+  echo  sudo su might require a password >
 fi
